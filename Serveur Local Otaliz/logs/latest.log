@@ -1,0 +1,17 @@
+[16:46:30] [Server thread/INFO]: Starting minecraft server version 1.11
+[16:46:30] [Server thread/INFO]: Loading properties
+[16:46:30] [Server thread/INFO]: Default game type: SURVIVAL
+[16:46:30] [Server thread/ERROR]: Encountered an unexpected exception
+java.net.UnknownHostException: play.otaliz.net
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:1.8.0_51]
+	at java.net.InetAddress$2.lookupAllHostAddr(Unknown Source) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAddressesFromNameService(Unknown Source) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAllByName0(Unknown Source) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAllByName(Unknown Source) ~[?:1.8.0_51]
+	at java.net.InetAddress.getAllByName(Unknown Source) ~[?:1.8.0_51]
+	at java.net.InetAddress.getByName(Unknown Source) ~[?:1.8.0_51]
+	at net.minecraft.server.v1_11_R1.DedicatedServer.init(DedicatedServer.java:175) ~[spigot.jar:git-Spigot-f950f8e-0a81101]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.run(MinecraftServer.java:542) [spigot.jar:git-Spigot-f950f8e-0a81101]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_51]
+[16:46:30] [Server thread/ERROR]: This crash report has been saved to: C:\Users\conta\Desktop\Serveur Local\.\crash-reports\crash-2022-12-10_16.46.30-server.txt
+[16:46:30] [Server thread/INFO]: Stopping server
